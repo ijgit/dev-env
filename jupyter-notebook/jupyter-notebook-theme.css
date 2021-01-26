@@ -1,0 +1,48 @@
+body{
+  font-family: 'helvetica', 'AppleSDGothicNeo', 'nanumbarungothic';
+} 
+
+
+
+/* change code font */
+.CodeMirror {
+  font-family: 'D2Coding', Consolas;
+  font-size: calc(12px + .3vh);
+  line-height: 140%;
+}
+
+/* change cell index: in [n] */
+div.prompt{
+  font-family: 'D2Coding', Consolas;
+  font-size: calc(12px + .3vh);
+}
+
+/* output text font style */
+div.output_text pre{
+  font-family: 'D2Coding', Consolas;
+  font-size: calc(12px + .3vh);
+  line-height: 140%;
+}
+
+
+/* mark down text */
+div.text_cell_render{
+  font-family: 'helvetica', 'AppleSDGothicNeo', 'nanumbarungothic';
+}
+
+/* code block */
+
+div.text_cell_render pre{
+  margin: 1em 0;
+}
+
+div.text_cell_render code{
+  width: 100%;
+  margin: auto;
+  display: block;
+  font-family: 'D2Coding', Consolas;
+  background-color: #f3f3f3e8;
+  padding: 1em;
+}
+
+
